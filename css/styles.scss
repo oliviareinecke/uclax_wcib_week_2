@@ -1,6 +1,6 @@
 body {
 	background-color: rgb(255,192,230);
-	background-image: url('/images/backgroundF.jpg');
+	background-image: url('/images/background2.jpg');
 	background-repeat: repeat-y;
   background-position: top center;
 	background-size: cover;
@@ -11,28 +11,57 @@ body {
 
 	font-family: serif;
 	color: white;
+	text-shadow: 1px 1px 1px rgb( 255, 51, 153);
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.6;
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
 
 	header {
+		text-align: center;
 		img {
 			width: 50%;
 			height: 50%;
 		}
 	}
+
 	article {
+		text-align: center;
 		img {
+			border-radius: 20px;
 			width: 30%;
 			height: 30%;
 		}
 	}
 
-	p{
-		text-align: left;
+	section{
+		text-align: center;
 	}
-	footer {
 
+	iframe{
+	border-radius: 20px;
 	}
-	img {
-		width: 100%;
-		height: 100%;
+
+	p{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-weight: bold;
+	}
+
+	a {
+    text-decoration: underline;
+    color: rgb( 255, 51, 153);
+		text-shadow: 1px 1px 1px white;
+    &:hover {
+      color: rgb( 255, 100, 217);
+  	}
+	}
+
+	footer{
+			text-align: center;
 	}
 }
