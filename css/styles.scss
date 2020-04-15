@@ -1,10 +1,38 @@
 body {
+	background-color: rgb(255,192,230);
+	background-image: url('/images/backgroundF.jpg');
+	background-repeat: repeat-y;
+  background-position: top center;
+	background-size: cover;
+	padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 
-	background: url('/images/backgroundF.jpg');
+	font-family: serif;
+	color: white;
 
-	font-family: sans-serif;
+	header {
+		img {
+			width: 50%;
+			height: 50%;
+		}
+	}
+	article {
+		img {
+			width: 30%;
+			height: 30%;
+		}
+	}
 
+	p{
+		text-align: left;
+	}
+	footer {
+
+	}
 	img {
 		width: 100%;
+		height: 100%;
 	}
 }

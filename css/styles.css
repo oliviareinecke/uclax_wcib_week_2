@@ -1,5 +1,23 @@
 body {
-  background: url("/images/backgroundF.jpg");
-  font-family: sans-serif; }
+  background-color: #ffc0e6;
+  background-image: url("/images/backgroundF.jpg");
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: serif;
+  color: white; }
+  body header img {
+    width: 50%;
+    height: 50%; }
+  body article img {
+    width: 30%;
+    height: 30%; }
+  body p {
+    text-align: left; }
   body img {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
